@@ -1,0 +1,2 @@
+# GitHub Actions workflow to build artifacts (ZIP + optional NSIS exe)
+# See README_BUILD.md for details. Add to .github/workflows/ to enable CI build.

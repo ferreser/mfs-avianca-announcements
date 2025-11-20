@@ -1,0 +1,6 @@
+{
+  "name": "mfs-avianca-announcements",
+  "version": "0.2.0",
+  "description": "Announcements engine for MSFS2024 integrated with SimBrief, WebSocket panel and SimConnect watcher",
+  "main": "src/server.js",
+  "scripts": {

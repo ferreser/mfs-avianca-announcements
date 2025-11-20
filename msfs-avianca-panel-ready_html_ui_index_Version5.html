@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <title>Avianca Announcements Panel</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="app">
+    <header>
+      <img src="icons/icon-64.png" alt="Avianca" id="logo" />
+      <h1>Avianca Announcements</h1>
+    </header>
+    <section id="connection">
+      <label>Engine URL
+        <input type="text" id="engineUrl" value="http://localhost:3000" />
+      </label>
+      <label>Bind Secret (opcional)
+        <input type="text" id="bindSecret" placeholder="Secret if required" />
+      </label>
+      <div class="row">
+        <button id="btnBind">Bind & Connect</button>
+        <button id="btnDisconnect">Disconnect</button>
+      </div>
+      <div id="status">Desconectado</div>
+    </section>
+    <section id="controls">
+      <div class="row">
+        <button id="btnPause">Pause</button>
+        <button id="btnResume">Resume</button>
+        <button id="btnSkip">Skip</button>
+        <button id="btnStop">Stop</button>
+      </div>
+      <div class="row manual-trigger">
+        <select id="triggerSelect"></select>
+        <button id="btnTrigger">Trigger</button>
+      </div>
+    </section>
+    <section id="now">
+      <h3>Now playing</h3>
+      <div id="current">—</div>
+      <h3>Queue</h3>
+      <ul id="queueList"></ul>
+    </section>
+    <footer><small>Panel — requiere motor Node.js accesible.</small></footer>
+  </div>
+  <script src="client.js"></script>
+</body>
+</html>

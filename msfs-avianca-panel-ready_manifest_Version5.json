@@ -1,0 +1,13 @@
+{
+  "packageName": "msfs-avianca-announcements-panel",
+  "title": "Avianca Announcements Panel",
+  "author": "ferreser",
+  "version": "0.1.0",
+  "description": "Panel HTML para controlar el motor de anuncios desde la barra de MSFS (bind + WS).",
+  "files": [
+    "html_ui/index.html",
+    "html_ui/client.js",
+    "html_ui/style.css",
+    "html_ui/icons/icon-64.png"
+  ]
+}
